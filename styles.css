@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubbler+One&family=Lemon&display=swap');
 
 *{
     margin: 0;
@@ -6,7 +8,7 @@
     box-sizing: border-box;
 }
 #principal{
-    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("img/img2.avif");
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url("img/RB57FSLJFBFIRGTSLQRHI67PD4.png");
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -22,7 +24,7 @@
 }
 
 #principal .contenedor header div a img{
-   width: 350px;
+   width: 100px;
    height: auto;
 }
 
@@ -33,7 +35,7 @@
     justify-content:space-around;
     align-items: center;
     
-    height: 90px;
+    height: 100px;
 }
 
 #principal .contenedor header .contenido nav ul{
@@ -65,14 +67,20 @@
 
 #principal .contenedor .registros  a, .carrito a{
     font-size: 20px;
-    color: #eaeae9;
+    color: rgb(194, 195, 158);
 }
 #principal .contenedor .cuerpo h1{  
     text-transform: uppercase;
     letter-spacing: 2px;
+    font-family: "Lemon", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #principal .contenedor .cuerpo span{
-    text-transform: lowercase;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgb(20, 196, 58), rgb(232, 232, 9), rgb(206, 24, 54));
+    background-clip: text;
+    color: transparent;
 }
 
 #principal .contenedor .cuerpo{
@@ -90,6 +98,10 @@
     max-width: 450px;
     margin: 15px;
     font-size: 20px;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
     text-align: center;
 }
 
@@ -99,5 +111,13 @@
     text-decoration: none;
     color: white;
     background-color: #26b424;
+    border-radius: 1rem;
+    font-family: "Bubbler One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#principal .contenedor .cuerpo a:hover{
+
+    background-color: #24a021;
 }
 
